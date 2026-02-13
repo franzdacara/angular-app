@@ -17,7 +17,7 @@ export class AddItem {
     
     if (task) {
       this.newTodo.emit(task);
-      console.log(`New task added: ${task}`);
+      // console.log(`New task added: ${task}`);
       this.newTask.setValue('');
     }
   }
